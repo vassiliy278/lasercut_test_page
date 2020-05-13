@@ -42,7 +42,7 @@ h2 {
     font-size: 32px;
 }
 .info_block {
-    background-color: #ccc;
+    background-color: #acf;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,6 +103,15 @@ h2 {
 .feauture_block3 {
     flex-direction: row-reverse;
 }
+.second_left_block4 {
+    background-image: url(/img/kis16.jpg);
+    background-position: bottom;
+}
+.second_left_block5 {
+    background-image: url(/img/bitcoin_process.jpg);
+    background-position: bottom;
+}
+
 @media (max-width: 1025px) {
     body {
         width: 100%;        
@@ -121,7 +130,6 @@ h2 {
         height: 30vh;
     }
     .info_block {
-        background-color: #ccc;
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: space-between;
@@ -169,5 +177,14 @@ h2 {
     }
     .second_left_block3 {
         background-image: url(/img/bitcoin_plastic.jpg);
+    }
+    .second_left_block4 {
+        background-image: url(/img/kis16.jpg);
+        background-position: bottom;
+    }
+    .second_left_block5 {
+        background-image: url(/img/bitcoin_process.jpg);
+        background-position: right;
+    }
     }
 }

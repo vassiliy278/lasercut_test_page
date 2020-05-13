@@ -165,7 +165,7 @@ h2 {
         flex-wrap: wrap;
         flex-basis: 100%;
         height: 30vh;
-        background-image: url(img/lasercuthand4.jpg);
+        background-image: url(/img/lasercuthand4.jpg);
         background-size: cover;
         background-position: top;
     }

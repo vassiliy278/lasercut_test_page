@@ -84,12 +84,12 @@ h2 {
     flex-wrap: wrap;
     flex-basis: 50%;
     height: 40vh;
-    background-image: url(/img/lasercuthand4.jpg);
+    background-image: url(./img/lasercuthand4.jpg);
     background-size: cover;
     background-position: center;
 }
 .second_left_block3 {
-    background-image: url(/img/bitcoin_plastic.jpg);
+    background-image: url(./img/bitcoin_plastic.jpg);
 }
 .second_right_block {
     display: flex;
@@ -104,15 +104,15 @@ h2 {
     flex-direction: row-reverse;
 }
 .second_left_block4 {
-    background-image: url(/img/kis16.jpg);
+    background-image: url(./img/kis16.jpg);
     background-position: bottom;
 }
 .second_left_block5 {
-    background-image: url(/img/bitcoin_process.jpg);
+    background-image: url(./img/bitcoin_process.jpg);
     background-position: bottom;
 }
 .second_left_block6 {
-    background-image: url(/img/hacker_hands.jpg);
+    background-image: url(./img/hacker_hands.jpg);
     background-position: bottom;
     height: 50vh;
 }
@@ -183,23 +183,23 @@ h2 {
         height: 30vh;
     }
     .second_left_block3 {
-        background-image: url(/img/bitcoin_plastic.jpg);
+        background-image: url(./img/bitcoin_plastic.jpg);
     }
     .second_left_block4 {
-        background-image: url(/img/kis16.jpg);
+        background-image: url(./img/kis16.jpg);
         background-position: bottom;
     }
     .second_left_block5 {
-        background-image: url(/img/bitcoin_process.jpg);
+        background-image: url(./img/bitcoin_process.jpg);
         background-position: right;
     }
     .second_left_block6 {
-        background-image: url(/img/hacker_hands.jpg);
+        background-image: url(../img/hacker_hands.jpg);
         background-position: top;
         height: 40vh;
     }
     .second_left_block6 {
-        background-image: url(/img/hacker_hands.jpg);
+        background-image: url(./img/hacker_hands.jpg);
         background-position: bottom;
         height: 40vh;
     }

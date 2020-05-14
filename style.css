@@ -59,18 +59,28 @@ h2 {
     flex-basis: 33%;
     justify-content: center;
 }
-.phone__link:hover, .address__link:hover, .email_block:hover {
+/* .phone__link:hover, .address__link:hover, .email_block:hover, .address_link__footer:hover {
     color: #555;
-    transition: .25s ease;
+    transition: .05s ease;
+} */
+.phone__link, .address__link {
+    transition: .5s ease;
 }
-.feauture_block {
+.feauture_block_odd, .feauture_block_even {
     display: flex;
+    margin: 20px 0px;
 }
+.feauture_block_odd {
+    flex-direction: row-reverse;
+    /* background-color: #ddd; */
+}
+
 .feauture_block__left, .feauture_block__right {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
     height: 30vh;
+    
 }
 .feauture_block__description {
     display: flex;
@@ -112,23 +122,62 @@ h2 {
     background-position: bottom;
 }
 .second_left_block6 {
+    background-image: url(./img/lasercutting.jpg);
+    background-position: bottom;
+}
+.second_left_block7 {
     background-image: url(./img/hacker_hands.jpg);
     background-position: bottom;
-    height: 50vh;
+    height: 40vh;
 }
 .second_right_block2 {
-    height: 50vh;
+    height: 40vh;
+}
+.map_block {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer_map_link {
+    margin-top: 10px;
+}
+.address_link__footer {
+    letter-spacing: .4rem;
+    font-size: 19px;
+}
+footer {
+    /* height: 5vh; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer_block {
+    text-align: center;
+}
+.clicked {
+    transform: scale(2);
+    transition: .3s ease;
+    color: #fff;
+    
+}
+.js_click {
+    
 }
 @media (max-width: 1025px) {
     body {
         width: 100%;        
     }
+    .mobile_header_pic {
+        display: flex;
+        flex-basis: 100%;
+        height: 30vh;
+        background-image: url(./img/lasercut6.jpg);
+        background-size: cover;
+        background-position: top;
+    }
     .header_title {
         font-size: 1.5rem;
-    }
-    .feauture_block {
-        flex-wrap: wrap;
-        /* display: none; */
     }
     .feauture_block__left, .feauture_block__right {
         display: flex;
@@ -163,9 +212,9 @@ h2 {
         height: 2px;
         background-color: #333;
     }
-    .feauture_block2 {
+    .feauture_block_even, .feauture_block_odd {
+        flex-wrap: wrap;
         display: flex;
-        flex-wrap: wrap-reverse;
     }
     .second_left_block {
         display: flex;
@@ -194,16 +243,15 @@ h2 {
         background-position: right;
     }
     .second_left_block6 {
-        background-image: url(../img/hacker_hands.jpg);
-        background-position: top;
-        height: 40vh;
-    }
-    .second_left_block6 {
-        background-image: url(./img/hacker_hands.jpg);
+        background-image: url(./img/lasercutting.jpg);
         background-position: bottom;
-        height: 40vh;
     }
     .second_right_block2 {
+        height: 40vh;
+    }
+    .second_left_block7 {
+        background-image: url(./img/hacker_hands.jpg);
+        background-position: bottom;
         height: 40vh;
     }
 }

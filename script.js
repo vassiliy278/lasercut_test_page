@@ -13,3 +13,13 @@ function copyEmail() {
     }, 1250)
     }
 email.addEventListener('click', copyEmail);
+
+const clicks = document.querySelectorAll('.js_click');
+clicks.forEach(click => {
+    click.addEventListener('click', function(e) {
+        click.classList.add('clicked');
+        setTimeout(() => {
+            click.classList.remove('clicked')
+        }, 1250)
+    })
+})

@@ -13,7 +13,7 @@ body {
     margin-bottom: 10vh;
 }
 .telegram_link {
-    position: sticky;
+    position: fixed;
     opacity: .6;
     width: 50px;
     top: 80%;
